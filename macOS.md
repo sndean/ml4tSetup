@@ -1,4 +1,4 @@
-# Setting up on macOS
+# Setting up on macOS (and wanting to use Jupyter Notebooks)
 
 My MacBook Air is running High Sierra Version 10.13.3.
 
