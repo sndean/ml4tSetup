@@ -94,5 +94,24 @@ To resolve this, I ran `pip install --upgrade --force-reinstall --no-cache-dir j
 
 _Now_ running `jupyter notebook` worked correctly. When you go to `http://localhost:8888/tree` in your browser, you'll see that a kernel called "ML4T" is an option.
 
+## Jupyter Lab
+
+Update: I've found that [Jupyter Lab](https://github.com/jupyterlab/jupyterlab) is more useful than Jupyter Notebooks. 
+
+To use them along with the ML4T kernel and virutalenv created above, it's probably easiest to simply download Ananconda from [here](https://www.anaconda.com/download/#macos), install, and then launch `jupyter lab` from the commandline (not in the virtualenv). 
+
+Jupyter Lab opens in `http://localhost:8888/lab` in your browser.
+
+Then, in Jupyter Lab, making sure you've selected to use the ML4T kernel, open a terminal and run:
+
+```
+source ~/.virtualenvs/jupyter_kernel_ml4t/bin/activate
+```
+
+to activate your virtualenv (activate _from within_ Jupyter Lab). Using this, you'll have access to all of the great components of Jupyter Lab (notebooks, a basic text editor for scripts, and the terminal) in a way that's seemingly 100% compatible --- so far, at least --- with the Python environment installed on `buffet01.cc.gatech.edu`.
+
+
+
+
 
 
