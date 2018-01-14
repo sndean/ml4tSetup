@@ -1,4 +1,4 @@
-# Setting up on macOS (and wanting to use Jupyter Notebooks)
+# Setting up on macOS with virtualenv (for Jupyter Notebooks)
 
 My MacBook Air is running High Sierra Version 10.13.3.
 
